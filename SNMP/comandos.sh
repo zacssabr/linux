@@ -3,7 +3,6 @@
 snmpwalk -v2c -c <COMUNITY> <IP> -On <OID>
 snmptranslate -Tz -m ./<MIB>
 
-
 ##### DIRETORIO SNMP ######
 
 mkdir -p $HOME/.snmp
